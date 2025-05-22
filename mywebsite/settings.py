@@ -26,10 +26,10 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-default-secret-key-for-de
 DEBUG = False
 
 # Add your PythonAnywhere username in place of 'yourusername'
-ALLOWED_HOSTS = ['yourusername.pythonanywhere.com', 'www.yourdomain.com']
+ALLOWED_HOSTS = ['jumaDev.pythonanywhere.com']
 
 # Add this for security
-CSRF_TRUSTED_ORIGINS = ['https://yourusername.pythonanywhere.com', 'https://www.yourdomain.com']
+CSRF_TRUSTED_ORIGINS = ['https://jumaDev.pythonanywhere.com']
 
 # Application definition
 INSTALLED_APPS = [
