@@ -1,9 +1,25 @@
+# Core Django
+Django==5.0.6
 asgiref==3.8.1
-Django==5.2.1
-pillow==11.2.1
-sqlparse==0.5.3
-tzdata==2025.2
-whitenoise==6.6.0  # For static files
-python-dotenv==1.0.1  # For environment variables
-gunicorn==21.2.0  # WSGI server (optional for PythonAnywhere)
-psycopg2-binary==2.9.9  # If using PostgreSQL
+sqlparse==0.4.4
+
+# Database (SQLite is included by default)
+# Uncomment if using PostgreSQL:
+# psycopg2-binary==2.9.9
+# Uncomment if using MySQL:
+# mysqlclient==2.2.1
+
+# Static files
+whitenoise==6.6.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Production WSGI server (optional for PythonAnywhere)
+gunicorn==21.2.0
+
+# Timezone support
+tzdata==2025.2  # Already included in your virtualenv
+
+# Additional packages you might need based on your project
+Pillow==10.3.0  # For image handling
